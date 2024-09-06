@@ -3,8 +3,16 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .transitions {
-  @apply transition duration-300 ease-in;
+  @apply transition duration-1000 ease-in;
+}
+.transitions-side {
+  @apply transition-all duration-300 ease-in-out;
 }
 .flex-btn {
   @apply flex items-center justify-center;
